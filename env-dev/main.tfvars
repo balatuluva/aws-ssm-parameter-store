@@ -16,5 +16,12 @@ parameters = [
   { name = "dev.shipping.cart_endpoint", value = "cart.gehana26.online:8080" },
   { name = "dev.shipping.db_host", value = "mysql.gehana26.online" },
   { name = "dev.shipping.db_user", value = "root" },
-  { name = "dev.shipping.db_pass", value = "RoboShop@1" }
+  { name = "dev.shipping.db_pass", value = "RoboShop@1" },
+  { name = "dev.payment.cart_host", value = "cart.gehana26.online" },
+  { name = "dev.payment.cart_port", value = "8080" },
+  { name = "dev.payment.user_host", value = "user.gehana26.online" },
+  { name = "dev.payment.user_port", value = "8080" },
+  { name = "dev.payment.amqp_host", value = "rabbitmq.gehana26.online" },
+  { name = "dev.payment.amqp_user", value = "roboshop" },
+  { name = "dev.payment.amqp_pass", value = "roboshop123" }
 ]
