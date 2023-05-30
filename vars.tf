@@ -1,2 +1,2 @@
 variable "parameters" {}
-variable "password" {}
+variable "passwords" {}
